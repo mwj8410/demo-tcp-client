@@ -1,0 +1,30 @@
+{
+  "name": "scratch-node-project",
+  "author": "Matthew W. Jackson <mwj8410@gmail.com>",
+  "license": "UNLICENSED",
+  "version": "0.1.0",
+  "private": false,
+  "description": "A stub NodeJs project intended to be used to seed experimental exercises.",
+  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mwj8410/scratch-node-project.git"
+  },
+  "engines": {
+    "node": "8.5.x",
+    "npm": "5.4.x"
+  },
+  "os": [
+    "!win32"
+  ],
+  "main": "index.js",
+  "dependencies": {
+    "chai": "^3.5.0",
+    "colors": "^1.1.2",
+    "mocha": "^3.2.0",
+    "sinon": "^2.1.0"
+  },
+  "scripts": {
+    "test": "mocha ./tests/unit.config.js --timeout 30000"
+  }
+}
