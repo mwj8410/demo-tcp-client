@@ -1,6 +1,11 @@
-# Scratch Node Project #
+# tcp-worker #
 
-This project is intended to be copied and used as a starting structure to explore small blocks of isolated functionality.
+## Getting Started ##
 
-## Structure ##
+Ensure your environment meets the following requirements:
 
+**NodeJs** v8.6.0
+**NPM** 5.3.0
+
+Then run `npm install`.
+Once that is finished, run `npm start`.
