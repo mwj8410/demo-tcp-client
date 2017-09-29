@@ -1,10 +1,10 @@
 {
-  "name": "tcp-worker",
+  "name": "demo-tcp-client",
   "author": "Matthew W. Jackson <mwj8410@gmail.com>",
   "license": "UNLICENSED",
   "version": "0.1.0",
   "private": false,
-  "description": "An example of a TCP server with workers.",
+  "description": "An example of a TCP client that receives specific messages from a remote server.",
   "keywords": [],
   "repository": {
     "type": "git",
@@ -25,7 +25,6 @@
     "sinon": "^2.1.0"
   },
   "scripts": {
-    "start": "node ./src/main",
-    "test": "mocha ./tests/unit.config.js --timeout 30000"
+    "start": "node ./src/main"
   }
 }
